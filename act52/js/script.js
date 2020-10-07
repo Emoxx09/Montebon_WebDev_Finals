@@ -60,5 +60,4 @@ function checkFormat(){
 
 function welcome(){
 	alert("Welcome, " + document.getElementById('fname').value + "! Hope you enjoy the experience!");
-	window.location.href = 'https://kmontebon.github.io/Montebon_WebDev_Finals/act52/formvalidation.html';
 }
