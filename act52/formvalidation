@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Registration Form (w/ Validation)</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    	<h1>REGISTER FOR OUR CODING LESSONS</h1>
+    	<p>Join our 3 days of Web Design Coding Lessons. This is completely free. You'll learn things ranging from HTML to Javascript. Please just fill up this form so we could cater to your needs and adjust our sessions accordingly! Thank you!</p>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+  			<label align="center" for="fname">First name:</label><br>
+			<input align="center" type="text" id="fname" name="fname"><br>
+
+			<label align="center" for="lname">Last name:</label><br>
+			<input align="center" type="text" id="lname" name="lname"><br>
+
+			<label for="pwd">Password:</label><br>
+  			<input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+  			title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"><br>
+
+  			<label for="email">Email:</label><br>
+  			<input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+  			
+  			<label for="homepage">Link social media profile:</label><br>
+  			<input type="url" id="homepage" name="homepage" pattern="https?://.+" title="Include http://"><br><br>
+
+  			<label>Gender:</label><br>
+  			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br>
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other">Other</label><br><br>
+
+			<label>Which of these do you have experience on?:</label><br>
+			<input type="checkbox" id="option1" name="option1" value="HTML">
+  			<label for="vehicle1"> HTML</label><br>
+			<input type="checkbox" id="option2" name="option2" value="CSS">
+			<label for="vehicle2"> CSS</label><br>
+			<input type="checkbox" id="option3" name="option3" value="Javascript">
+			<label for="vehicle3"> Javascript</label><br><br>
+
+			<label>Which do you prefer? (Frontend or Backend):</label><br>
+			<select name="subject" id="subject">
+    		<option value="" selected="selected">Select</option>
+  			</select><br>
+  			<br>
+  			<input type="submit" value="Register">
+			<button id="btnLogin" onClick="window.location.reload();">Reset</button>
+			<script src="js/script.js"></script>
+		</form>
+		<br>
+    </body>
+</html>
