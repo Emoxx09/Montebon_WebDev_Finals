@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Instagram Photos Feed With Bootstrap</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-light sticky-top bg-light">
+        <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <ul class="nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/home.png" class= "pictures" alt="Profile Pic" width="20" height="20"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/inbox.png" class= "pictures" alt="Profile Pic" width="20" height="20"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/explore.png" class= "pictures" alt="Profile Pic" width="20" height="20"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/activity.png" class= "pictures" alt="Profile Pic" width="20" height="20"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="30" height="30" style="border-radius: 50%;"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Saved</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+        
+        <!-- Modal Begin -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body ">
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                  <!--<input class="form-control mr-sm-2 custom-search-modal" type="search" placeholder="" aria-label="Search">-->
+                  <i class="fas fa-camera-retro p-1 border rounded mt-1" ></i>
+                  <i class="fas fa-map-marker-alt p-1 border rounded mt-1" ></i>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success btn-sm">Publish</button>
+              </div>
+            </div>
+          </div>
+        </div> <!-- modal end -->
+        
+        
+            
+        <div class="container-fluid ">
+          <!-- Nav pills -->
+          <div class="row justify-content-center mt-4">
+                <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="150" height="150" style="border-radius: 50%;">
+                <div class="col-md-4">
+                    <p style="font-size:30px">aaron_khyle</p>
+                    <p> <strong>9</strong> posts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>102</strong> followers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>114</strong> following</p>
+                    <p style="font-size:15px"><strong>Khyle Aaron</strong></p>
+                    <p>l o l</p>
+                </div>
+
+            </div>
+            <ul class="nav nav-pills black justify-content-center mt-4" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#home"><i class="fa fa-square" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu2"><i class="fa fa-th" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div id="home" class="container-fluid tab-pane active "><br>
+                    <div class="row justify-content-center">
+                        <div class="" style="padding-bottom: 50px;">
+                            
+                            <div class="card mx-auto custom-card" id="prova" style="width: 40rem;">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="50" height="50" style="border-radius: 50%;">
+                                    <div class="col-6 "><p>aaron_khyle</p></div>
+                                </div>
+                                <img class="card-img" src="https://instagram.fceb2-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/61919342_406377693296954_483206999490602589_n.jpg?_nc_ht=instagram.fceb2-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=WG9l5-0s2LAAX-jWr0a&_nc_tp=24&oh=33a7eab362ce271b6ad56f5fdbdec4c0&oe=5FAC9731" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">10 Likes</h5>
+                                    <p class="card-text">gaze upon me and I'll gaze back - the abyss</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova" style="width: 40rem;">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="50" height="50" style="border-radius: 50%;">
+                                    <div class="col-6 "><p>aaron_khyle</p></div>
+                                </div>
+                                <img class="card-img" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.135.1080.1080a/s320x320/60084894_376164863020163_1469472495237060679_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=OTh6F5L14zUAX8HNEfO&tp=16&oh=c74173e1bc076b78197a83c22d20e6fd&oe=5FAA5E66" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">16 Likes</h5>
+                                    <p class="card-text">Tint it green 💚</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova" style="width: 40rem;">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="50" height="50" style="border-radius: 50%;">
+                                    <div class="col-6 "><p>aaron_khyle</p></div>
+                                </div>
+                                <img class="card-img" src="https://instagram.fceb2-2.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/61555285_348418785858902_4498740462989158719_n.jpg?_nc_ht=instagram.fceb2-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=Aft7D3i9v_4AX8Jzpsv&_nc_tp=15&oh=31884d77d474e8a0edae77d55b769bc1&oe=5FACCE6D" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">8 Likes</h5>
+                                    <p class="card-text">Messy hair + Polka dots + Green Background = 90's vibes</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova" style="width: 40rem;">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="50" height="50" style="border-radius: 50%;">
+                                    <div class="col-6 "><p>aaron_khyle</p></div>
+                                </div>
+                                <img class="card-img" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.135.1080.1080a/s320x320/58831731_898387427172933_7188309560337185403_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=5Ma_9hZT8BgAX8i_pBU&tp=16&oh=c11a5047bb08791b0ca20f210d487111&oe=5FAA6D6E" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">12 Likes</h5>
+                                    <p class="card-text">fonki🕶️</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova" style="width: 40rem;">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="50" height="50" style="border-radius: 50%;">
+                                    <div class="col-6 "><p>aaron_khyle</p></div>
+                                </div>
+                                <img class="card-img" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/53535907_2268302279964825_8187378874248724806_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=iF0GRpezAjoAX8D6LdM&_nc_tp=15&oh=be16b947ff3f492f9adb720fa394f6bf&oe=5FAB8E8E" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">16 Likes</h5>
+                                    <p class="card-text">SWho did it better? 🤔🤣</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova" style="width: 40rem;">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="50" height="50" style="border-radius: 50%;">
+                                    <div class="col-6 "><p>aaron_khyle</p></div>
+                                </div>
+                                <img class="card-img" src="https://instagram.fceb2-2.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/53740020_129007621554504_2415436939440303047_n.jpg?_nc_ht=instagram.fceb2-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=mir5JMD3vf0AX_CBXbY&_nc_tp=15&oh=b7c4eb3302bee93d63fdb5444de5b42a&oe=5FADAA9C" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">11 Likes</h5>
+                                    <p class="card-text">blotter silonga😅</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova" style="width: 40rem;">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="50" height="50" style="border-radius: 50%;">
+                                    <div class="col-6 "><p>aaron_khyle</p></div>
+                                </div>
+                                <img class="card-img" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/c236.0.608.608a/s320x320/53112173_399301054221937_2359922576085360405_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=oMt0vkNfMCIAX_3GtFV&tp=16&oh=04adbd52acb9dd7afd52d424fcf4d4cf&oe=5FAB2692" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">1000 Likes</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova" style="width: 40rem;">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="50" height="50" style="border-radius: 50%;">
+                                    <div class="col-6 "><p>aaron_khyle</p></div>
+                                </div>
+                                <img class="card-img" src="https://instagram.fmnl4-1.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/52851244_121620718935291_3936525557319601309_n.jpg?_nc_ht=instagram.fmnl4-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=cmfBrWcgW5IAX85pVjn&_nc_tp=15&oh=aab7e8f0de5350e88fe446a0495de03d&oe=5FACA52E" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">10 Likes</h5>
+                                    <p class="card-text">Watch out for our upcoming travel vlog. To be uploaded on April 1.</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova" style="width: 40rem;" >
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <img src="https://instagram.fmnl4-4.fna.fbcdn.net/v/t51.2885-19/s320x320/51828484_257153155200274_1020608040551841792_n.jpg?_nc_ht=instagram.fmnl4-4.fna.fbcdn.net&_nc_ohc=57VQf-nugzcAX8N9lrG&oh=bef71acc64f25940b643418497b511b0&oe=5FACD4C8" class= "pictures" alt="Profile Pic" width="50" height="50" style="border-radius: 50%;">
+                                    <div class="col-6 "><p>aaron_khyle</p></div>
+                                </div>
+                                <img class="card-img" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/51974158_122095155566447_640032759275152819_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=C6UpuIOGz84AX96V70n&_nc_tp=15&oh=50fe09bbed7c915a45e5f245eaafbdce&oe=5FAAE356" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">11 Likes</h5>
+                                    <p class="card-text">puñeta</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                    
+                        </div>
+                    </div>    
+                </div>
+
+                <div id="menu2" class="container tab-pane fade"><br>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="tilesImg" src="https://instagram.fceb2-2.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/61919342_406377693296954_483206999490602589_n.jpg?_nc_ht=instagram.fceb2-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=WG9l5-0s2LAAX-jWr0a&_nc_tp=15&oh=5ee3b961e9d04cfbea3d103049813e6f&oe=5FAB62DD" alt="Card image cap" style="border-radius: 3px; padding-bottom: 20px;">
+                        </div>
+                        <div class="col-sm">
+                            <img class="tilesImg" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.135.1080.1080a/s320x320/60084894_376164863020163_1469472495237060679_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=OTh6F5L14zUAX8HNEfO&tp=16&oh=c74173e1bc076b78197a83c22d20e6fd&oe=5FAA5E66" alt="Card image cap" style="border-radius: 3px; padding-bottom: 20px;">
+                        </div>
+                        <div class="col-sm">
+                            <img class="tilesImg" src="https://instagram.fceb2-2.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/61555285_348418785858902_4498740462989158719_n.jpg?_nc_ht=instagram.fceb2-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=Aft7D3i9v_4AX8Jzpsv&_nc_tp=15&oh=31884d77d474e8a0edae77d55b769bc1&oe=5FACCE6D" alt="Card image cap" style="border-radius: 3px; padding-bottom: 20px;">
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="tilesImg" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.135.1080.1080a/s320x320/58831731_898387427172933_7188309560337185403_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=5Ma_9hZT8BgAX8i_pBU&tp=16&oh=c11a5047bb08791b0ca20f210d487111&oe=5FAA6D6E" alt="Card image cap" style="border-radius: 3px; padding-bottom: 20px;">
+                        </div>
+                        <div class="col-sm">
+                            <img class="tilesImg" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/53535907_2268302279964825_8187378874248724806_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=iF0GRpezAjoAX8D6LdM&_nc_tp=15&oh=be16b947ff3f492f9adb720fa394f6bf&oe=5FAB8E8E" alt="Card image cap" style="border-radius: 3px; padding-bottom: 20px;">
+                        </div>
+                        <div class="col-sm">
+                            <img class="tilesImg" src="https://instagram.fceb2-2.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/53740020_129007621554504_2415436939440303047_n.jpg?_nc_ht=instagram.fceb2-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=mir5JMD3vf0AX_CBXbY&_nc_tp=15&oh=b7c4eb3302bee93d63fdb5444de5b42a&oe=5FADAA9C" alt="Card image cap" style="border-radius: 3px; padding-bottom: 20px;">
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="tilesImg" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/c236.0.608.608a/s320x320/53112173_399301054221937_2359922576085360405_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=oMt0vkNfMCIAX_3GtFV&tp=16&oh=04adbd52acb9dd7afd52d424fcf4d4cf&oe=5FAB2692" alt="Card image cap" style="border-radius: 3px; padding-bottom: 20px;">
+                        </div>
+                        <div class="col-sm">
+                            <img class="tilesImg" src="https://instagram.fmnl4-1.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/52851244_121620718935291_3936525557319601309_n.jpg?_nc_ht=instagram.fmnl4-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=cmfBrWcgW5IAX85pVjn&_nc_tp=15&oh=aab7e8f0de5350e88fe446a0495de03d&oe=5FACA52E" alt="Card image cap" style="border-radius: 3px; padding-bottom: 20px;">
+                        </div>
+                        <div class="col-sm">
+                            <img class="tilesImg" src="https://instagram.fceb2-1.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/51974158_122095155566447_640032759275152819_n.jpg?_nc_ht=instagram.fceb2-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=C6UpuIOGz84AX96V70n&_nc_tp=15&oh=50fe09bbed7c915a45e5f245eaafbdce&oe=5FAAE356" alt="Card image cap" style="border-radius: 3px; padding-bottom: 20px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
