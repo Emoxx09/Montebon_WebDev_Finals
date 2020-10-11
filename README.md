@@ -24,3 +24,13 @@ Pitch: https://drive.google.com/file/d/1rwmwGnKVg984Ix5ZZQGCnkwRgyKJaIsH/view?us
 The tools used to create this web application are html, css, js. Along with the bootstrap framework.
 
 # Learnings
+I've learned a lot in creating this project. I've learned to see the world in a bigger picture and understand the perspective of others. 
+Putting yourself in one's shoe is a very important trait as you get to understand how they feel and what's best for them. Which lead me to coming up with Fetch!
+
+In this course, I've learned a lot of technical things Web related. From the basics of HTML to the application of Bootstrap. Learning is not easy, though with determination, 
+we can push through. And arguably, that's the best thing I've learned here. To keep this determination going so that I can face more challenges up ahead!
+
+To pinpoint something, it would be the general knowledge of frameworks and tools. I want to challenge myself to learn more of these tools. So that I have a lot of weapon
+in my arsenal. When I have those, improvement in UI, UX, Server-side Scripting and many more will follow.
+
+To a brighter future!
